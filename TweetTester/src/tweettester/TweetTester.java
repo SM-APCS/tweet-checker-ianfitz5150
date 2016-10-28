@@ -18,8 +18,11 @@ public class TweetTester {
      */
     public static void main(String[] args) {
         
-        Scanner scan = new Scanner (System.in);
-         String tweet;
+        Scanner scan = new Scanner (System.in); // initialize scanner
+         System.out.print("Please enter your tweet: "); // prompt user
+         String tweet = scan.nextLine(); // initializes and scans for the tweet body
+         System.out.println("The length of the tweet is " + tweet.length() + " characters(s) long.");
+         
          
     }
     
